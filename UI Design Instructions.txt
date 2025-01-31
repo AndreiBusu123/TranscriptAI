@@ -1,0 +1,131 @@
+Primary Colors (Core Brand):
+Copyprimary-900: #1E40AF - Use for main brand elements and primary actions
+primary-800: #1E3A8A - Use for hover states on primary buttons
+primary-700: #2563EB - Use for active states and selected items
+primary-200: #BFDBFE - Use for subtle highlights and secondary indicators
+primary-100: #DBEAFE - Use for background emphasis and non-interactive highlights
+Secondary Colors (Supporting Elements):
+Copysecondary-900: #334155 - Use for main text content
+secondary-800: #475569 - Use for secondary text and labels
+secondary-700: #64748B - Use for placeholder text and disabled states
+secondary-200: #E2E8F0 - Use for borders and dividers
+secondary-100: #F1F5F9 - Use for subtle backgrounds and hover states
+Background Hierarchy:
+Copybg-white: #FFFFFF - Primary background for main content areas
+bg-gray-50: #F8FAFC - Secondary background for containers and cards
+bg-gray-100: #F1F5F9 - Tertiary background for hover states
+bg-blue-50: #EFF6FF - Background for highlighted or selected items
+Semantic Colors:
+Copysuccess-700: #15803D - Success actions and confirmations
+success-100: #DCFCE7 - Success backgrounds and indicators
+warning-700: #B45309 - Warning actions and alerts
+warning-100: #FEF3C7 - Warning backgrounds and indicators
+error-700: #B91C1C - Error states and critical actions
+error-100: #FEE2E2 - Error backgrounds and indicators
+Implementation Instructions for LLM Code Generation:
+
+Base Layout Structure:
+
+Copy- Apply bg-white (#FFFFFF) to the main application container
+- Use bg-gray-50 (#F8FAFC) for the sidebar and main content cards
+- Implement a 1px border using secondary-200 (#E2E8F0) for separating sections
+
+Typography Hierarchy:
+
+Copy- Primary headings: secondary-900 (#334155), font-weight: 700
+- Body text: secondary-800 (#475569), font-weight: 400
+- Secondary text: secondary-700 (#64748B), font-weight: 400
+- Links and interactive text: primary-700 (#2563EB), font-weight: 500
+
+Interactive Elements:
+
+Buttons:
+CopyPrimary Button:
+- Background: primary-900 (#1E40AF)
+- Hover: primary-800 (#1E3A8A)
+- Text: white (#FFFFFF)
+- Padding: 12px 24px
+- Border radius: 8px
+
+Secondary Button:
+- Background: white (#FFFFFF)
+- Border: secondary-200 (#E2E8F0)
+- Hover Background: secondary-100 (#F1F5F9)
+- Text: secondary-900 (#334155)
+Form Elements:
+CopyInput Fields:
+- Background: white (#FFFFFF)
+- Border: secondary-200 (#E2E8F0)
+- Focus Border: primary-700 (#2563EB)
+- Placeholder: secondary-700 (#64748B)
+- Text: secondary-900 (#334155)
+
+Dropdown/Select:
+- Same as input fields
+- Hover Background: secondary-100 (#F1F5F9)
+
+Navigation Elements:
+
+CopySidebar:
+- Background: bg-gray-50 (#F8FAFC)
+- Selected Item: bg-blue-50 (#EFF6FF)
+- Item Text: secondary-800 (#475569)
+- Selected Text: primary-900 (#1E40AF)
+
+Tab Navigation:
+- Inactive Tab: secondary-700 (#64748B)
+- Active Tab: primary-900 (#1E40AF)
+- Bottom Border: primary-700 (#2563EB)
+
+Chat Interface:
+
+CopyMessage Bubbles:
+- AI Message Background: bg-gray-50 (#F8FAFC)
+- User Message Background: bg-blue-50 (#EFF6FF)
+- AI Message Text: secondary-900 (#334155)
+- User Message Text: secondary-900 (#334155)
+
+Input Area:
+- Background: white (#FFFFFF)
+- Border: secondary-200 (#E2E8F0)
+- Send Button: primary-900 (#1E40AF)
+
+Status Indicators:
+
+CopySuccess States:
+- Background: success-100 (#DCFCE7)
+- Text/Icon: success-700 (#15803D)
+
+Warning States:
+- Background: warning-100 (#FEF3C7)
+- Text/Icon: warning-700 (#B45309)
+
+Error States:
+- Background: error-100 (#FEE2E2)
+- Text/Icon: error-700 (#B91C1C)
+Special Implementation Notes for LLM:
+
+Accessibility:
+
+Copy- Maintain minimum contrast ratio of 4.5:1 for all text
+- Use primary-900 (#1E40AF) for focus indicators
+- Implement hover and focus states for all interactive elements
+
+Component Spacing:
+
+Copy- Use 8px grid system for all spacing
+- Standard padding for containers: 24px
+- Standard gap between elements: 16px
+- Standard border-radius: 8px
+
+Shadow System:
+
+Copy- Light shadow: 0 1px 2px rgba(0, 0, 0, 0.05)
+- Medium shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1)
+- Large shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1)
+
+Animation Guidelines:
+
+Copy- Transition duration: 150ms
+- Transition timing: ease-in-out
+- Apply to: background-color, border-color, transform
